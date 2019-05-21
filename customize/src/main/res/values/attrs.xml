@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+    <!-- 进度条的颜色 -->
+    <attr name="progressColor" format="color"/>
+
+    <!-- 文字的颜色 -->
+    <attr name="textColor" format="color"/>
+
+    <declare-styleable name="SkipView">
+
+        <!-- 圆实心的颜色 -->
+        <attr name="circleSolidColor" format="color"/>
+
+        <!-- 圆边框的颜色 -->
+        <attr name="circleFrameColor" format="color"/>
+
+        <!-- 进度条的颜色 -->
+        <attr name="progressColor"/>
+
+        <!-- 文字的颜色 -->
+        <attr name="textColor" />
+
+        <!-- 进度条宽度 -->
+        <attr name="progressWidth" format="integer"/>
+
+        <!-- 字体大小 -->
+        <attr name="textSize" format="integer"/>
+
+        <!-- 文字与圆的距离 -->
+        <attr name="textPadding" format="integer"/>
+
+        <!-- 总时间 -->
+        <attr name="totalTime" format="integer"/>
+
+        <!-- 内容 -->
+        <attr name="text" format="string"/>
+
+        <!-- 开始的位置 -->
+        <attr name="startPosition" format="enum">
+            <enum name="LEFT" value="180"/>
+            <enum name="RIGHT" value="0"/>
+            <enum name="TOP" value="-90"/>
+            <enum name="BOTTOM" value="90"/>
+        </attr>
+        <attr name="progressType" format="enum">
+            <enum name="CLOCKWISE" value="0"/>
+            <enum name="COUNTERCLOCKWISE" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
